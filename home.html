@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bean Brew</title>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+    <!-- --------- Owl-Carousel ------------------->
+    <link rel="stylesheet" href="owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="owl/owl.theme.default.min.css">
+
+    <!-- ------------ AOS Library ------------------------- -->
+
+
+    <!-- Custom Style   -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!--------Navigation--------->
+    <nav class="nav">
+        <div class="nav-menu flex-row">
+            <div class="logo">
+                <img src="images/logo.png">
+            </div>
+            <div class="toggle-collapse">
+                <div class="toggle-icons">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+            <div>
+                <ul class="nav-items">
+                    <li><a class="navbar-link home-link" href="#">Home</a></li>
+                    <li><a class="navbar-link menu-link" href="menu.html">Menu</a></li>
+                    <li><a class="navbar-link about-link" href="about.html">About</a></li>
+                    <li><a class="navbar-link review-link" href="#customer">Reviews</a></li>
+                    <li><a class="navbar-link contact-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="cart">
+                <a href="#"><i class="fa-solid fa-user fa-lg"></i></a>
+                <a href="#"><i class="fa-solid fa-bag-shopping fa-lg"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <!--------Navigation--------->
+    <!-------Main site section---------->
+
+    <main>
+        <!-------Site title------>
+        <section class="site-title">
+            <div class="items">
+                <div class="site-background">
+                    <h1> <span>Espresso yourself</span><br>at Bean Brew!</h1>
+                    <h4>At Bean Brew, we offer a variety of high-quality espresso drinks
+                        that are expertly crafted to bring
+                        out the full flavor of the beans. Whether you prefer a bold,
+                        rich espresso shot or a creamy, frothy
+                        latte, we've got you covered. So come in and let us help you
+                        "espresso yourself" with the perfect
+                        cup of coffee.</h4>
+                  <a href="menu.html">  <button class="btn">See The Menu </button> </a>
+                </div>
+                <div class="img">
+                    <img src="images/main1.jpg">
+                </div>
+            </div>
+
+        </section>
+
+        <!-------Site title------>
+        <!----------------AD----------->
+
+        <section class="ddeal">
+            <div class="dailydeal">
+                <h1>DAILY DEAL</h1>
+            </div>
+        </section>
+
+        <section class="ad">
+            <div class="row">
+                <div class="col50"><img src="images/20OFF.png" ;>
+
+                    <h4 class="adtext"> Every morning until 12 p.m</h4>
+                    <h1>ON COFFEE AND <br>FRESH BAKE</h1>
+                </div>
+
+                <div class="col60">
+                    <img src="images/toas.png">
+                </div>
+            </div>
+        </section>
+
+        <!----------------AD----------->
+        <!--------------3rd section------------->
+        <section class="wrapper">
+            <div class="container flex">
+                <div class="right">
+                    <img src="images/w1.png">
+                </div>
+                <div class="left">
+                    <div class="heading2">
+                        <h1> Roasted Coffee<span><br> for Your Mood </span></h1>
+                        <p>Start your day on the right roast with our mood-boosting coffee!</p>
+                    </div>
+                    <div class="text flex">
+                        <div class="icon">
+                            <a href="#"><i class="fa-solid fa-location-dot fa-lg"></i></a>
+                        </div>
+                        <div class="add">
+                            <h5>Our Location</h5>
+                            <label> Kapan, Kathmandu</label>
+                        </div>
+                    </div>
+                    <div class="button">
+                        <button class="btn1">Shop Now</button>
+                        <button class="btn1" id="btn1-contact" href="#contact">Contact Us</button>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+        <!--------------3rd section------------->
+        <!--------------------------menu-------------------------->
+        <section class="menu1" id="menu1">
+            <div class="heading1">
+                <span> Our Menu</span>
+            </div>
+            <div class="menu-container">
+                <div class="box">
+                    <div class="box-img">
+                        <a href="menu.html">
+                            <img src="images/sand11.jpg"></a>
+                    </div>
+                    <div class="cont">
+                        <a href="menu.html"><h3>Sandwiches</h3> </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-img"><a href="menu.html">
+                            <img src="images/croissant1.jpg"></a>
+                    </div>
+                    <div class="cont">
+                       <a href="menu.html"> <h3>Bakeries</h3></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-img"><a href="menu.html">
+                            <img src="images/cof.jpg"></a>
+                    </div>
+                    <div class="cont">
+                      <a href="menu.html" > <h3>Drinks</h3></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--------------------------menu-------------------------->
+      
+        <!--------TESTIMONIAL------->
+        <section class="wrapper customer mtop">
+            <div class="container">
+                <div class="owl-carousel owl-theme mtop">
+                    <div class="titems"><i class="fa-solid fa-quote-right fa-lg"></i>
+                        <p>I absolutely love Bean Brew Cafe! The coffee is always top-notch, and the atmosphere is so
+                            cozy and inviting. The staff is also incredibly friendly and always willing to go the extra
+                            mile to make your experience the best it can be. I highly recommend stopping by Bean Brew
+                            for a delicious cup of coffee and a relaxing break from the hustle and bustle of everyday
+                            life.</p>
+                        <div class="t1">
+                            <img src="images/t1.jpg">
+                        </div>
+                        <h5>Anusha Ghimire</h5>
+                    </div>
+                    <div class="titems"><i class="fa-solid fa-quote-right fa-lg"></i>
+                        <p>Bean Brew Cafe is my go-to spot for a quick caffeine fix. The coffee is always fresh and
+                            delicious, and they have a great selection of pastries and snacks to choose from. The
+                            atmosphere is also really nice - it's a perfect spot to catch up with friends or get some
+                            work done. Overall, I highly recommend Bean Brew for anyone looking for a great cafe
+                            experience.</p>
+                        <div class="t1">
+                            <img src="images/t2.jpg">
+                        </div>
+                        <h5>Sonam Tamang</h5>
+                    </div>
+                    <div class="titems"><i class="fa-solid fa-quote-right fa-lg"></i>
+                        <p>I recently discovered Bean Brew Cafe, and I have to say, it's quickly become one of my
+                            favorite spots in town. The coffee is amazing, and the baristas are so knowledgeable and
+                            friendly. The interior is also really nicely decorated, with plenty of seating options and a
+                            great vibe. I would definitely recommend checking out Bean Brew Cafe – you won't be
+                            disappointed!</p>
+                        <div class="t1">
+                            <img src="images/t3.jpg">
+                        </div>
+                        <h5>Kanchan Basnet</h5>
+                    </div>
+                    <div class="titems"><i class="fa-solid fa-quote-right fa-lg"></i>
+                        <p>Delicious food, pastries and coffee. Adorable outdoor seating area. Always has a nice crowd
+                            but you don't have to wait long for your food. Great dining experience. Love this place!</p>
+                        <div class="t1">
+                            <img src="images/t4.jpg">
+                        </div>
+                        <h5>Peshal Khatri</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--------TESTIMONIAL------->
+        <!----------------------Brand---------------->
+        <section class="brand">
+            <div class="container grid">
+                <div class="img">
+                    <img src="images/b1.png">
+                </div>
+                <div class="img">
+                    <img src="images/b2.png">
+                </div>
+                <div class="img">
+                    <img src="images/b3.png">
+                </div>
+                <div class="img">
+                    <img src="images/b4.png">
+                </div>
+                <div class="img">
+                    <img src="images/b5.png">
+                </div>
+
+            </div>
+
+        </section>
+
+        <!----------------------Brand---------------->
+    </main>
+    <!-------Main site section---------->
+    <!------gallery------->
+    <section class="socialmedia">
+        <div class="gallery">
+            <div class="beanbr">
+                <h1> #espressoyourself</h1>
+            </div>
+            <div class="content grid" id="gallery-image">
+                <div class="box">
+                    <div class="img">
+                    <img src="images/g1.jpg" > 
+                    </div>
+                    <div class="ico">
+                        <i class="fa-brands fa-instagram fa-lg"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="img">
+                        <img src="images/g2.jpg" >
+                    </div>
+                    <div class="ico">
+                        <i class="fa-brands fa-instagram fa-lg"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="img">
+                        <img src="images/g3.jpg">
+                    </div>
+                    <div class="ico">
+                        <i class="fa-brands fa-instagram fa-lg"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="img">
+                        <img src="images/g4.jpg">
+                    </div>
+                    <div class="ico">
+                        <i class="fa-brands fa-instagram fa-lg"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="img">
+                        <img src="images/g5.jpg">
+                    </div>
+                    <div class="ico">
+                        <i class="fa-brands fa-instagram fa-lg"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="img">
+                        <img src="images/g6.jpg">
+                    </div>
+                    <div class="ico">
+                        <i class="fa-brands fa-instagram fa-lg"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="img">
+                        <img src="images/g7.png">
+                    </div>
+                    <div class="ico">
+                        <i class="fa-brands fa-instagram fa-lg"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="img">
+                        <img src="images/g8.jpg">
+                    </div>
+                    <div class="ico">
+                        <i class="fa-brands fa-instagram fa-lg"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="img">
+                        <img src="images/g9.png">
+                    </div>
+                    <div class="ico">
+                        <i class="fa-brands fa-instagram fa-lg"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="img">
+                        <img src="images/g10.jpg">
+                    </div>
+                    <div class="ico">
+                        <i class="fa-brands fa-instagram fa-lg"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------gallery------->
+    <!-------------contact us--------->
+    <section class="contact">
+        <div class="contac grid">
+            <div class="vid">
+                <video autoplay muted loop src="images/vid.mp4"></video>
+            </div>
+            <div class="schedule">
+                <div class="phone">
+                    <h1>Contact Us</h1>
+                    <h4><a href="tel:+977-01-234-567">01-234-5678</a></h4>
+                    <h3> Kirtipur, Kathmandu 44600</h3>
+                </div>
+                <div class="open">
+                    <h1>Open Hours</h1>
+                </div>
+                <table class="table">
+                    <tr>
+                        <td>Sun-Thu</td>
+                        <td>7:00am - 6:30pm</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td>8:00am - 5:00pm</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday</td>
+                        <td>Closed</td>
+                    </tr>
+
+                </table>
+
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.18498592323!2d85.28088797481416!3d27.680676926668358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1814d1da760b%3A0xdbd29350787694aa!2sTribhuvan%20University!5e0!3m2!1sen!2snp!4v1714475659156!5m2!1sen!2snp" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+    <!-------------contact us--------->
+    <!------------foooter-------------->
+    <section class="footer">
+        <div class="topfoot">
+            <div class="offertt">
+                <a href="#">
+                    <h2> Shop organic premium coffee beans Now!</h2>
+                </a>
+            </div>
+            <div class="logofooter">
+                <a class="footer-logo" href="#nav"><img src="images/footlogo.png"> </a>
+            </div>
+            <div class="socials">
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://www.twitter.com/"><i class="fa-brands fa-square-twitter"></i></a>
+            </div>
+
+        </div>
+        <hr>
+        <hr>
+        <div class="lowfoot">
+
+            <h3><i class="fa-regular fa-copyright fa-xs"></i> <span>2024 BEAN BREW, ALL RIGHTS RESERVED </span></h3>
+        </div>
+    </section>
+
+
+    <!------------------footer------------------>
+    <!----------------scrollllll------>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!---------Jquery library------->
+
+    <script src="./js/jquery3.6.4.min.js"></script>
+    <!----------------Owl carousel------------------->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- Custom Javascript file -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
